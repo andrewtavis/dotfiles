@@ -1,12 +1,18 @@
 [user]
 name = Andrew Tavis McAllister
-email = andrew.t.mcallister@gmail.com
+useConfigOnly = true
 
 [init]
 defaultBranch = main
+
+[include]
+path = ~/.gitconfig.private
 
 [core]
 editor = nano
 
 [push]
 default = simple
+
+[pull]
+rebase = false
