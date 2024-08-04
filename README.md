@@ -13,4 +13,16 @@ git clone https://github.com/andrewtavis/dotfiles.git $HOME/.dotfiles
 # Run the installation script:
 cd $HOME/.dotfiles
 make
+
+# To use the local version after updates:
+cp -r . ~/.dotfiles
+cd $HOME/.dotfiles
+make
 ```
+
+<details><summary>References</summary>
+
+- [github:tymcauley/dotfiles](https://github.com/tymcauley/dotfiles)
+- [github:mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+
+</details>

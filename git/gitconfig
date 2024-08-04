@@ -1,0 +1,12 @@
+[user]
+name = Andrew Tavis McAllister
+email = andrew.t.mcallister@gmail.com
+
+[init]
+defaultBranch = main
+
+[core]
+editor = nano
+
+[push]
+default = simple

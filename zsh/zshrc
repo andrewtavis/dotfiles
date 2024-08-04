@@ -1,0 +1,5 @@
+# Set up the prompt
+
+export PROMPT="%2~ %F{yellow}»%f "
+
+bindkey -e # Emacs
