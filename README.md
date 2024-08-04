@@ -1,4 +1,4 @@
-# dotfiles
+# [dotfiles](https://github.com/andrewtavis/dotfiles)
 
 ### Configurations for my development environments
 
