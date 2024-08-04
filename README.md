@@ -20,7 +20,7 @@ make
 
 ## References
 
-<details><summary>View referenced code</summary>
+<details><summary>View referenced projects</summary>
 
 - [github:tymcauley/dotfiles](https://github.com/tymcauley/dotfiles)
 - [github:mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
