@@ -4,6 +4,9 @@
 
 This repo contains configuration files for my macOS and Ubuntu development environments.
 
+> [!NOTE]
+> There are some user specific settings included in these files. If you'd like to try out these configurations, please first check the code and personalize it for your needs.
+
 ## Installation
 
 ```bash
