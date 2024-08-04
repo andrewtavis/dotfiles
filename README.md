@@ -20,7 +20,9 @@ cd $HOME/.dotfiles
 make
 ```
 
-<details><summary>References</summary>
+## References
+
+<details><summary>View referenced code</summary>
 
 - [github:tymcauley/dotfiles](https://github.com/tymcauley/dotfiles)
 - [github:mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
