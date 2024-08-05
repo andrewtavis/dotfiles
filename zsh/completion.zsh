@@ -6,10 +6,10 @@ _comp_options+=(globdots) # with hidden files
 # Plugins
 if [[ $(uname) == "Darwin" ]]; then
     source /Users/$USER/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /Users/$USER/.zsh/zsh-autosuggetions/zsh-autosuggestions.zsh
+    source /Users/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 else
     source /home/$USER/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /home/$USER/.zsh/zsh-autosuggetions/zsh-autosuggestions.zsh
+    source /home/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
 # Custom bindings
