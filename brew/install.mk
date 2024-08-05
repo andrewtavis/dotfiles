@@ -22,6 +22,7 @@ brew:
 	@for formula in $(BREW_FORMULAE_TO_INSTALL) ; do \
 		brew install $$formula ; \
 	done
+
 ifeq ($(shell uname),Darwin)
 	@for cask in $(BREW_CASKS_TO_INSTALL) ; do \
 		brew install $$cask ; \
