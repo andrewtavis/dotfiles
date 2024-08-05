@@ -2,4 +2,4 @@
 ALL_TARGETS += macos
 
 macos:
-	./.macos
+	./macos/.settings

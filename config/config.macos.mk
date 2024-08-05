@@ -15,4 +15,7 @@ BREW_FORMULAE := \
 
 BREW_CASKS := \
 	amethyst \
-	docker
+	android-studio \
+	docker \
+	flux \
+	visual-studio-code
