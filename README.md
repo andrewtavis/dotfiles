@@ -13,8 +13,13 @@ This repo contains configuration files for my macOS and Ubuntu development envir
 # Clone this repository to a local .dotfiles directory:
 git clone https://github.com/andrewtavis/dotfiles.git $HOME/.dotfiles
 
-# Run the installation script:
+# Navigate to .dotfiles, choose a config file and run the scripts:
 cd $HOME/.dotfiles
+
+cp config/config.macos.mk config.mk
+# or
+cp config/config.linux.mk config.mk
+
 make
 ```
 
