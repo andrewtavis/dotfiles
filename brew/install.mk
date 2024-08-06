@@ -3,7 +3,7 @@ ALL_TARGETS += brew
 
 ifeq ($(shell which brew 2> /dev/null),)
 $(error Please install homebrew: >>> \
-	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" \
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" \
 	<<<)
 endif
 
