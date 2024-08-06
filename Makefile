@@ -17,6 +17,10 @@ ifeq ($(GIT),1)
 include git/install.mk
 endif
 
+ifeq ($(MACOS),1)
+include macos/install.mk
+endif
+
 ifeq ($(ZSH),1)
 include zsh/install.mk
 endif
