@@ -1,8 +1,8 @@
 export CONFIG_HOME="$HOME/.config"
 
 # History
-export ZSHDIR="$CONFIG_HOME/zsh"
-export HISTFILE="$ZSHDIR/.zhistory" # history filepath
-export HISTSIZE=100000              # maximum events for internal history
-export SAVEHIST=100000              # maximum events in history file
+export ZDOTDIR="$CONFIG_HOME/zsh"
+export HISTFILE="$ZDOTDIR/.zhistory" # history filepath
+export HISTSIZE=100000               # maximum events for internal history
+export SAVEHIST=100000               # maximum events in history file
 HISTDUP=erase
