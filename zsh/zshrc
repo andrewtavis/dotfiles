@@ -1,35 +1,27 @@
+export CONFIG_HOME="$HOME/.config"
+export ZDOTDIR="$CONFIG_HOME/zsh"
+
 bindkey -e # Emacs
 
-#
 # Prompt
-#
-
 export PROMPT="%2~ %F{yellow}»%f "
 
-#
 # Utility functions
-#
 
 # Source a file if it exists.
 function __check_and_source {
     [[ -f "$1" ]] && source "$1"
 }
 
-#
 # Aliases
-#
 
 __check_and_source "$ZDOTDIR/aliases.zsh"
 
-#
 # Completion
-#
 
 __check_and_source "$ZDOTDIR/completion.zsh"
 
-#
 # History
-#
 
 setopt HIST_EXPIRE_DUPS_FIRST # Expire a duplicate event first when trimming history.
 setopt HIST_IGNORE_DUPS       # Do not record an event that was just recorded again.

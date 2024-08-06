@@ -1,6 +1,4 @@
-#
-# Base
-#
+# MARK: Base
 
 alias grep="grep -P -i --color=auto"
 alias mkdir="mkdir -pv"
@@ -23,16 +21,12 @@ fi
 
 alias ll="ls -lahF"
 
-#
-# Python
-#
+# MARK:Python
 
 alias python="python3"
 alias jup="jupyter notebook"
 
-#
-# Git
-#
+# MARK: Git
 
 alias g='git'
 
