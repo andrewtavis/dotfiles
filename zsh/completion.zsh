@@ -1,15 +1,16 @@
 # MARK: Base
+
 autoload -U compinit
 compinit
 _comp_options+=(globdots) # with hidden files
 
 # MARK: Plugins
 if [[ $(uname) == "Darwin" ]]; then
-    source /Users/$USER/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /Users/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+    source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
 else
-    source /home/$USER/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /home/$USER/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+    source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
 # MARK: Custom bindings
