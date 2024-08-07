@@ -22,7 +22,7 @@ done 2>/dev/null &
 sudo nvram SystemAudioVolume=" "
 
 # Set highlight and accent colors to yellow.
-defaults write NSGlobalDomain AppleHighlightColor -string "0.964705 0.784313 0.266666"
+defaults write NSGlobalDomain AppleHighlightColor -string "0.458823 0.341176 0.023529"
 
 # Set sidebar icon size to medium.
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
@@ -39,7 +39,7 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 ###############################################################################
-# MARK: Trackpad, Mouse, Keyboard, Bluetooth Accessories, Input
+# MARK: Keyboard, Mouse, Trackpad, Bluetooth Accessories, Input
 ###############################################################################
 
 # Enable “natural” scrolling.
@@ -56,8 +56,8 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Set a fast keyboard repeat rate.
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 30
 
 # Set language and text formats.
 defaults write NSGlobalDomain AppleLanguages -array "en"
