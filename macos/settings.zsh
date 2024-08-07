@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-# ~/.macos — https://mths.be/macos, https://github.com/mathiasbynens/dotfiles
+# ~/.macos — https://mths.be/macos
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change.
@@ -23,7 +21,7 @@ done 2>/dev/null &
 # Disable the sound effects on boot.
 sudo nvram SystemAudioVolume=" "
 
-# Set highlight color to yellow.
+# Set highlight and accent colors to yellow.
 defaults write NSGlobalDomain AppleHighlightColor -string "0.964705 0.784313 0.266666"
 
 # Set sidebar icon size to medium.
@@ -45,7 +43,7 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 ###############################################################################
 
 # Enable “natural” scrolling.
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+defaults write -g com.apple.swipescrolldirection -bool true
 
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs).
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
@@ -136,10 +134,10 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 ###############################################################################
 
 # Enable highlight hover effect for the grid view of a stack (Dock).
-defaults write com.apple.dock mouse-over-hilite-stack -bool true
+defaults write com.apple.dock mouse-over-hilite-stack -bool false
 
-# Set the icon size of Dock items to 36 pixels.
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items.
+defaults write com.apple.dock tilesize -int 60
 
 # Change minimize/maximize window effect.
 defaults write com.apple.dock mineffect -string "scale"
@@ -182,7 +180,7 @@ defaults write com.apple.dock wvous-tl-modifier -int 0
 defaults write com.apple.dock wvous-tr-corner -int 0
 defaults write com.apple.dock wvous-tr-modifier -int 0
 # Bottom left screen corner: Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
+defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-bl-modifier -int 0
 # Bottom right screen corner
 defaults write com.apple.dock wvous-bl-corner -int 0
@@ -194,9 +192,6 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume.
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Disable local Time Machine backups.
-hash tmutil &>/dev/null && sudo tmutil disablelocal
 
 ###############################################################################
 # MARK: App Store
