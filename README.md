@@ -16,9 +16,9 @@ git clone https://github.com/andrewtavis/dotfiles.git $HOME/.dotfiles
 # Navigate to .dotfiles, choose a config file and run the scripts:
 cd $HOME/.dotfiles
 
-cp config/config.macos.mk config.mk
+cp config/cfg.macos.mk cfg.mk
 # or
-cp config/config.linux.mk config.mk
+cp config/cfg.linux.mk cfg.mk
 
 make
 ```

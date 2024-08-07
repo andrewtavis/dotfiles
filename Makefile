@@ -1,8 +1,8 @@
-ifeq ($(wildcard config.mk),)
-$(error Missing dotfiles config file 'config.mk'. Check examples in 'config/' directory)
+ifeq ($(wildcard cfg.mk),)
+$(error Missing dotfiles config file 'cfg.mk'. Check examples in 'config/' directory)
 endif
 
-include config.mk
+include cfg.mk
 
 ALL_TARGETS =
 
