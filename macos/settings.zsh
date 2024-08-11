@@ -21,9 +21,6 @@ done 2>/dev/null &
 # Disable the sound effects on boot.
 sudo nvram SystemAudioVolume=" "
 
-# Set highlight and accent colors to yellow.
-defaults write NSGlobalDomain AppleHighlightColor -string "0.458823 0.341176 0.023529"
-
 # Set sidebar icon size to medium.
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
