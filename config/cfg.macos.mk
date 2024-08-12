@@ -9,6 +9,7 @@ BREW_FORMULAE := \
 	make \
 	node \
 	python \
+	swiftlint \
 	wget \
 	yarn \
 	zsh
