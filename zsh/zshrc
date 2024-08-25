@@ -18,6 +18,10 @@ __check_and_source "$ZDOTDIR/aliases.zsh"
 
 __check_and_source "$ZDOTDIR/completion.zsh"
 
+# Functions
+
+code() { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
+
 # History
 
 setopt HIST_EXPIRE_DUPS_FIRST # Expire a duplicate event first when trimming history.
