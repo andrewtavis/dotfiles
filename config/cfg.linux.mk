@@ -8,6 +8,7 @@ BREW_FORMULAE := \
 	git \
 	make \
 	node \
+	prettier \
 	python \
 	rust \
 	wget \
