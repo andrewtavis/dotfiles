@@ -24,7 +24,7 @@ alias ll="ls -lahF"
 # MARK:Python
 
 alias python="python3"
-alias jup="jupyter notebook"
+alias jup="jupyter lab"
 
 # MARK: Git
 
