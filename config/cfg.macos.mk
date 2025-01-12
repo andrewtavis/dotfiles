@@ -21,4 +21,5 @@ BREW_CASKS := \
 	android-studio \
 	docker \
 	flux \
-	visual-studio-code
+	visual-studio-code \
+	dbeaver-community
