@@ -5,6 +5,7 @@ ZSH      := 1
 
 BREW_FORMULAE := \
 	coreutils \
+	docker-compose \
 	git \
 	make \
 	node \
