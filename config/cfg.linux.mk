@@ -12,5 +12,4 @@ BREW_FORMULAE := \
 	python \
 	rust \
 	wget \
-	yarn \
 	zsh

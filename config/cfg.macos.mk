@@ -13,7 +13,6 @@ BREW_FORMULAE := \
 	rust \
 	swiftlint \
 	wget \
-	yarn \
 	zsh
 
 BREW_CASKS := \
