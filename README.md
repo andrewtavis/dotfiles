@@ -1,5 +1,7 @@
 # [dotfiles](https://github.com/andrewtavis/dotfiles)
 
+[![license](https://img.shields.io/github/license/andrewtavis/dotfiles.svg?label=%20)](https://github.com/andrewtavis/dotfiles/blob/main/LICENSE.txt)
+
 ### Configurations for my development environments
 
 This repo contains configuration files for my macOS and Ubuntu development environments.
