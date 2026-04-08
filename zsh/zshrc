@@ -22,6 +22,10 @@ __check_and_source "$ZDOTDIR/completion.zsh"
 
 code() { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
 
+gitcr() {
+    print -P "%2~ » |-------|-------|-------|-------|-------|-------|-------|-------|--"
+}
+
 # History
 
 setopt HIST_EXPIRE_DUPS_FIRST # Expire a duplicate event first when trimming history.

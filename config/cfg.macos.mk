@@ -7,6 +7,7 @@ BREW_FORMULAE := \
 	coreutils \
 	git \
 	make \
+	mariadb \
 	node \
 	prettier \
 	python \
