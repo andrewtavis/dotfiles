@@ -11,6 +11,5 @@ BREW_FORMULAE := \
 	node \
 	prettier \
 	python \
-	rust \
 	wget \
 	zsh
