@@ -1,6 +1,6 @@
-# [dotfiles](https://github.com/andrewtavis/dotfiles)
+# [dotfiles](https://codeberg.org/andrewtavis/dotfiles)
 
-[![license](https://img.shields.io/github/license/andrewtavis/dotfiles.svg?label=%20)](https://github.com/andrewtavis/dotfiles/blob/main/LICENSE.txt)
+[![license](https://img.shields.io/github/license/andrewtavis/dotfiles.svg?label=%20)](https://codeberg.org/andrewtavis/dotfiles/src/branch/main/LICENSE.txt)
 
 ### Configurations for my development environments
 
@@ -9,11 +9,16 @@ This repo contains configuration files for my macOS and Ubuntu development envir
 > [!NOTE]
 > There are some user specific settings included in these files. If you'd like to try out these configurations, please first check the code and personalize it for your needs.
 
+## Maintenance
+
+`dotfiles` is maintained at [codeberg.org/andrewtavis/dotfiles](https://codeberg.org/andrewtavis/dotfiles). Please visit this remote repository for issues and pull requests.
+
 ## Installation
 
 ```bash
 # Clone this repository to a local .dotfiles directory:
-git clone https://github.com/andrewtavis/dotfiles.git $HOME/.dotfiles
+git clone ssh://git@codeberg.org/andrewtavis/dotfiles.git $HOME/.dotfiles
+# git clone https://codeberg.org/andrewtavis/dotfiles.git $HOME/.dotfiles
 
 # Navigate to .dotfiles, choose a config file and run the scripts:
 cd $HOME/.dotfiles
@@ -29,7 +34,7 @@ make
 
 <details><summary>View referenced projects</summary>
 
-- [github:tymcauley/dotfiles](https://github.com/tymcauley/dotfiles)
-- [github:mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [GitHub:tymcauley/dotfiles](https://github.com/tymcauley/dotfiles)
+- [GitHub:mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 
 </details>
